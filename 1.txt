@@ -1,0 +1,9 @@
+import requests
+def lll():
+    url = ['http://www.17k.com/', 'http://www.17k.com/book/2801193.html']
+    file_path = 'C:/Users/lenovo/Desktop/html'
+    with open('C:/Users/lenovo/Desktop/.html','a',encoding='utf-8') as f:
+        for i in range(2):
+            header = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'}
+            response = requests.get('http://www.17k.com/',headers=header)
+            f.write(response.text)   
