@@ -1,0 +1,65 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| hello              |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+mysql> use hello;
+mysql> create table shoppingcar(id int not null primary key auto_increment, favorite varchar(45), zhekou int default 0, shuangshier varchar(45));
+mysql> insert into shoppingcar(favorite,shuangshier) values
+    -> ("computer","la");
+mysql> select * from shoppingcar;
++----+----------+--------+-------------+
+| id | favorite | zhekou | shuangshier |
++----+----------+--------+-------------+
+|  1 | computer |      0 | la          |
++----+----------+--------+-------------+
+mysql> insert into shoppingcar(favorite,shuangshier) values ("a","b"),("c","d"),("e","f"),("g","h");
+mysql> select * from shoppingcar;
++----+----------+--------+-------------+
+| id | favorite | zhekou | shuangshier |
++----+----------+--------+-------------+
+|  1 | computer |      0 | la          |
+|  2 | a        |      0 | b           |
+|  3 | c        |      0 | d           |
+|  4 | e        |      0 | f           |
+|  5 | g        |      0 | h           |
++----+----------+--------+-------------+
+mysql> update shoppingcar set zhekou=1 where id=3;
+mysql> select * from shoppingcar;
++----+----------+--------+-------------+
+| id | favorite | zhekou | shuangshier |
++----+----------+--------+-------------+
+|  1 | computer |      0 | la          |
+|  2 | a        |      0 | b           |
+|  3 | c        |      1 | d           |
+|  4 | e        |      0 | f           |
+|  5 | g        |      0 | h           |
++----+----------+--------+-------------+
+mysql> update shoppingcar set shuangshier="aaa" where id=4;
+mysql> select * from shoppingcar;
++----+----------+--------+-------------+
+| id | favorite | zhekou | shuangshier |
++----+----------+--------+-------------+
+|  1 | computer |      0 | la          |
+|  2 | a        |      0 | b           |
+|  3 | c        |      1 | d           |
+|  4 | e        |      0 | aaa         |
+|  5 | g        |      0 | h           |
++----+----------+--------+-------------+
+mysql> delete from shoppingcar where id=5;
+mysql> select * from shoppingcar;
++----+----------+--------+-------------+
+| id | favorite | zhekou | shuangshier |
++----+----------+--------+-------------+
+|  1 | computer |      0 | la          |
+|  2 | a        |      0 | b           |
+|  3 | c        |      1 | d           |
+|  4 | e        |      0 | aaa         |
++----+----------+--------+-------------+
+
+
