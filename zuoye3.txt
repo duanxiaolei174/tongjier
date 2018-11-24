@@ -1,0 +1,51 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| hello              |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+mysql> use hello;
+mysql> show tables;
++-----------------+
+| Tables_in_hello |
++-----------------+
+| countries       |
+| departments     |
+| dept            |
+| emp             |
+| employees       |
+| job_history     |
+| jobs            |
+| locations       |
+| regions         |
+| runnian         |
+| salgrade        |
+| shoppingcar     |
+| weixin          |
++-----------------+
+mysql> create table collect (id int primary key not null auto_increment, goods varchar(45) not null, collect1 int default 0);
+mysql> insert into collect (goods) values ("antique"),("watermargin"),("jade"),("carv");
+mysql> select * from collect;
++----+-------------+----------+
+| id | goods       | collect1 |
++----+-------------+----------+
+|  1 | antique     |        0 |
+|  2 | watermargin |        0 |
+|  3 | jade        |        0 |
+|  4 | carv        |        0 |
++----+-------------+----------+
+mysql> update collect set collect1=1 where id=3;
+mysql> select * from collect;
++----+-------------+----------+
+| id | goods       | collect1 |
++----+-------------+----------+
+|  1 | antique     |        0 |
+|  2 | watermargin |        0 |
+|  3 | jade        |        1 |
+|  4 | carv        |        0 |
++----+-------------+----------+
+

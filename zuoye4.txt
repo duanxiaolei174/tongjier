@@ -1,0 +1,69 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| hello              |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+mysql> use hello;
+mysql> show tables;
++-----------------+
+| Tables_in_hello |
++-----------------+
+| collect         |
+| countries       |
+| departments     |
+| dept            |
+| emp             |
+| employees       |
+| job_history     |
+| jobs            |
+| locations       |
+| regions         |
+| runnian         |
+| salgrade        |
+| shoppingcar     |
+| weixin          |
++-----------------+
+mysql>create table dianying (id int primanot null auto_increment, name varchar(45) not null, director varchar(45), year int not null, score int not null);
+mysql> insert into dianying (name,director,year,score) values ("venom",mysql> insert into dianying (name,director,year,score) values ("vm","Ruben Fleischer",2018,7),("Crystal Sky Of Yesterday","sleyboom",2018,6),("The Foreigner","Martin Campbell",2017,7),("your name","Makoto Shinkai",2016,8);
+mysql> select * from dianying;
++----+--------------------------+-----------------+------+-------+
+| id | name                     | director        | year | score |
++----+--------------------------+-----------------+------+-------+
+|  1 | venom                    | Ruben Fleischer | 2018 |     7 |
+|  2 | Crystal Sky Of Yesterday | sleyboom        | 2018 |     6 |
+|  3 | The Foreigner            | Martin Campbell | 2017 |     7 |
+|  4 | your name                | Makoto Shinkai  | 2016 |     8 |
++----+--------------------------+-----------------+------+-------+
+mysql> select * from dianying where director like '%Ma%';
++----+---------------+-----------------+------+-------+
+| id | name          | director        | year | score |
++----+---------------+-----------------+------+-------+
+|  3 | The Foreigner | Martin Campbell | 2017 |     7 |
+|  4 | your name     | Makoto Shinkai  | 2016 |     8 |
++----+---------------+-----------------+------+-------+
+mysql> select * from dianying where name like '%ne%';
++----+---------------+-----------------+------+-------+
+| id | name          | director        | year | score |
++----+---------------+-----------------+------+-------+
+|  3 | The Foreigner | Martin Campbell | 2017 |     7 |
++----+---------------+-----------------+------+-------+
+mysql> select * from dianying where year like '2018';
++----+--------------------------+-----------------+------+-------+
+| id | name                     | director        | year | score |
++----+--------------------------+-----------------+------+-------+
+|  1 | venom                    | Ruben Fleischer | 2018 |     7 |
+|  2 | Crystal Sky Of Yesterday | sleyboom        | 2018 |     6 |
++----+--------------------------+-----------------+------+-------+
+mysql> select * from dianying where score like '8';
++----+-----------+----------------+------+-------+
+| id | name      | director       | year | score |
++----+-----------+----------------+------+-------+
+|  4 | your name | Makoto Shinkai | 2016 |     8 |
++----+-----------+----------------+------+-------+
+
+

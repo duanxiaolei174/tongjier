@@ -1,0 +1,56 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| hello              |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+mysql> use hello;
+mysql> show tables;
++-----------------+
+| Tables_in_hello |
++-----------------+
+| collect         |
+| countries       |
+| departments     |
+| dept            |
+| dianying        |
+| emp             |
+| employees       |
+| job_history     |
+| jobs            |
+| locations       |
+| regions         |
+| runnian         |
+| salgrade        |
+| shoppingcar     |
+| weixin          |
++-----------------+
+mysql> create table yonghu (id int primary key not null auto_increment, name varchar(45), login varchar(45), time int not null);
+mysql> insert into yonghu (name,login,time) values ("a","app",8),("b","web",12),("c","web",21),("d","ipad",31);
+mysql> select * from yonghu;
++----+------+-------+------+
+| id | name | login | time |
++----+------+-------+------+
+|  1 | a    | app   |    8 |
+|  2 | b    | web   |   12 |
+|  3 | c    | web   |   21 |
+|  4 | d    | ipad  |   31 |
++----+------+-------+------+
+mysql> alter table yonghu add fs varchar(45);
+mysql> update yonghu set fs="快回来小天才" where time>7 and time<9;
+mysql> update yonghu set fs="你特么的回不回来" where 9<time and time<30;
+mysql> update yonghu set fs="你去死吧" where time>30;
+mysql> select * from yonghu;
++----+------+-------+------+--------------------------+
+| id | name | login | time | fs                       |
++----+------+-------+------+--------------------------+
+|  1 | a    | app   |    8 | 快回来小天才             |
+|  2 | b    | web   |   12 | 你特么的回不回来         |
+|  3 | c    | web   |   21 | 你特么的回不回来         |
+|  4 | d    | ipad  |   31 | 你去死吧                 |
++----+------+-------+------+--------------------------+
+
