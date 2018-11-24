@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>minnong</title>
+</head>
+<body>
+            <h1><strong>&lt< Sympathy for the peasants>&gt</strong></h1>
+                        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Hoeing &nbsp&nbspmillet&nbsp&nbsp in &nbsp&nbspmid-day&nbsp&nbsp heat,</p>
+                        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Sweat&nbsp&nbsp dripping&nbsp&nbsp to &nbsp&nbspthe &nbsp&nbspearth&nbsp&nbsp beneath.</p>
+                        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Do&nbsp&nbsp you&nbsp&nbsp know&nbsp&nbsp the&nbsp&nbsp food &nbsp&nbspon&nbsp&nbsp your&nbsp&nbsp plate,</p>
+                        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Each&nbsp&nbsp&nbsp grain&nbsp&nbsp &nbspwas&nbsp&nbsp &nbsphard-earned.</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jingyesi</title>
+</head>
+<body>
+<h1><strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lt< On A Quiet Night>&gt</strong></h1>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI &nbsp&nbsp&nbspsaw&nbsp&nbsp&nbsp the&nbsp&nbsp&nbsp moonlight&nbsp&nbsp&nbsp before&nbsp&nbsp&nbsp my&nbsp&nbsp&nbsp couch&nbsp&nbsp&nbsp,</p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAnd &nbsp&nbsp&nbspwondered &nbsp&nbspif &nbsp&nbspit &nbspwere &nbsp&nbspnot &nbsp&nbspthe &nbsp&nbspfrost &nbsp&nbspon &nbsp&nbspthe &nbsp&nbspground.</p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI &nbsp&nbspraised&nbsp&nbsp my &nbsp&nbsp and &nbsp&nbsplooked&nbsp&nbsp out&nbsp&nbsp on &nbsp&nbspthe&nbsp&nbsp mountain &nbsp&nbspmoon,</p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI &nbsp&nbspbowed &nbsp&nbspmy&nbsp&nbsp head&nbsp&nbsp and &nbsp&nbspthought&nbsp&nbsp of &nbsp&nbspmy&nbsp&nbsp far-off &nbsp&nbsphome.</p>
+</body>
+</html>
