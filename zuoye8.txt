@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<center lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zhihu</title>
+    <style>.div{border :1px solid white; width :1000px; height :1200px}
+    </style>
+</head>
+<body background="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543152905443&di=84925fbdc225750a82a16792aabbd595&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F0%2F53b4b747b9094.jpg" background-size : cover;>
+<p align="center">
+<center>
+<div class="div" style="background-color: white" >
+    <div><h1 style="color:blue;font-size:200px">知乎</h1>
+             <h2 style="color:blue;font-size:50px">注册知乎，发现更大的世界</h2>
+        </div>
+    <div>
+        <form>
+            <select >
+                <option>中国+86</option>
+                <option>美国+1</option>
+                <option>日本+81</option>
+            </select>
+            <input type="text" placeholder="手机号"/>
+            <br>
+            <input type="password" placeholder="密码"/>
+            <br>
+            <input type="submit" value="注册" style="background-color:blue;color:white"/>
+        </form>
+        <br>
+        <div>
+            <span style="color:#CDC9A5">注册即代表同意
+            <a href="https://www.zhihu.com/terms">《知乎协议》</a>
+            <a href="https://www.zhihu.com/term/privacy">《隐私保护指引》</a>
+                <a href="https://www.zhihu.com/org/signup">注册机构号</a>  </span>
+        </div>
+        <br>
+        <br>
+        <div style="background-color:#CDCDB4">已有帐号？
+            <span>登录</span>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div>
+    <form>
+        <input type="button" value="下载知乎 App" style="background-color:#878787;color:black;width :1000px; height :100px"/>
+    </form>
+</div>
+
+</p>
+</body>
+</center>
+</html>
