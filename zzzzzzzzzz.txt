@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page by Daisy</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>.div{ border:1px solid white;
+                 background-color: white;
+                 width: 1000px;height: 1200px;}
+        .div1{ border:1px solid white;
+                 background-color: gray;
+                 width: 1000px;
+                 height: 30px;
+                 font-size: 10px;float:left;}
+        .div3{ border:1px solid  gray;
+                 background-color: gray;
+                 width: 30px;
+                 height: 30px;
+                 font-size: 5px;
+            float: right;}
+        .div4{ border:1px solid  gray;
+                 background-color:  gray;
+                 width: 50px;
+                 height: 30px;
+                 font-size: 5px;
+            float: right;}
+        .div5{ border:1px solid  gray;
+                 background-color:gray;
+                 width: 100px;
+                 height: 30px;
+                 font-size: 5px;
+            float: right;}
+        .div6{ border:1px solid  gray;
+                 background-color: gray;
+                 width: 50px;
+                 height: 30px;
+                 font-size: 5px;
+            float: right;}
+        .div2{border:1px solid white;
+                 background-color: white;
+                 width: 1000px;
+                 height: 100px;
+                 font-size: 5px;
+            float: right;}
+        .div7{border:1px solid  white;
+            float: left;}
+        .div8{border:1px solid  white;
+            float: right;}
+        .div9{border:1px solid  white;
+                 background-color: white;
+                 width: 1000px;
+                 height: 80px;
+            float: left;}
+        .div16{
+            border-left: 1px solid gray;
+            border-top: 1px solid red;
+            border-right: 1px solid gray;
+            font-size: 28px;
+            float:left;
+                }
+    .div10{
+        width: 100px;
+        border-top: 1px solid orange;
+        border-right: 1px solid gray;
+        float:left;
+         }
+    .div11 {
+    width: 100px;
+    border-top: 1px solid orangered;
+    border-right: 1px solid gray;
+        float:left;
+}
+    .div12 {
+    width: 100px;
+        border-top: 1px solid blue;
+    border-right: 1px solid gray;
+        float:left;
+    }
+    .div13 {
+    width: 100px;
+    border-top: 1px solid greenyellow;
+    border-right: 1px solid gray;
+        float:left;
+}
+    .div14{
+    width: 100px;
+    border-top: 1px solid purple;
+    border-right: 1px solid gray;
+        float:left;
+}
+    .div15{
+    width: 100px;
+    border-top: 1px solid deeppink;
+    border-right: 1px solid gray;
+        float:left;
+    }
+  .div17{border:1px solid  white;
+                 background-color: white;
+                 width: 700px;
+                 height: 800px;
+            float: left;}
+    .div18{border-top:1px solid  gray;
+        border-bottom:1px solid  gray;
+                 background-color: white;
+                 width: 700px;
+                 height: 100px;
+            float: left;}
+    .div19{border:1px solid white;
+                 background-color: white;
+                 width: 400px;
+                 height: 350px;
+            float: left;}
+     .div20{border:1px solid  white;
+                 background-color: white;
+                 width: 400px;
+                 height: 350px;
+            float: left;}
+    .div21{border:1px solid  white;
+                 background-color: white;
+                 width: 250px;
+                 height: 800px;
+            float: right;}
+     .div22{border-top:1px solid  gray;
+            border-bottom:1px solid  gray;
+                 background-color: white;
+                 width: 250px;
+                 height:50px;
+            float:left;}
+     .div23{border:1px solid  white;
+                 background-color: white;
+                 width: 250px;
+                 height: 100px;}
+
+    .div24{border:1px solid  white;
+                 background-color: white;
+                 width: 250px;
+                 height: 100px;}
+
+    </style>
+</head>
+<body background="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3467170169,1132186902&fm=200&gp=0.jpg";background-size :cover;background-repeat:repeat>
+<div class="div">
+    <div1 class="div1">
+        <h2>
+        <span>
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-folder"></i>
+            <i class="fa fa-ambulance"></i>
+            <i class="fa fa-bicycle"></i>
+            <div3 class="div3"><h2><i class="fa fa-balance-scale"></i></h2></div3>
+            <div4 class="div4"><h2>About</h2></div4>
+            <div5 class="div5"><h2>Contact Us</h2></div5>
+            <div6 class="div6"><h2>FAQ</h2></div6>
+        </span>
+        </h2>
+    </div1>
+    <div2 class="div2">
+        <div7 class="div7">
+            <img src="https://mllj2j8xvfl0.i.optimole.com/auto/auto/auto/https/s20206.pcdn.co/wp-content/uploads/sites/67/2016/04/logo2_cwd4xq.png"/>
+        </div7>
+        <div8 class="div8"  >
+            <img src="https://mllj2j8xvfl0.i.optimole.com/auto/auto/auto/https/s20206.pcdn.co/wp-content/uploads/sites/67/2016/04/728_5.png" width="400px" height="80px"/>
+        </div8>
+
+    </div2>
+    <div9 class="div9">
+        <div16 class="div16">
+<h2 class="fa fa-home" style="color: green"
+    text-align : center;
+    vertical-align : middle></h2>
+        </div16>
+        <div10 class="div10">
+        <h6 text-align : center;
+    vertical-align : middle>FEATURES</h6>
+        </div10>
+        <div11 class="div11">
+        <h6 text-align : center;
+    vertical-align : middle>TECHNOLOGY</h6>
+        </div11>
+        <div12 class="div12">
+        <h6 text-align : center;
+    vertical-align : middle>BUSINESS</h6>
+        </div12>
+        <div13 class="div13">
+        <h6 text-align : center;
+    vertical-align : middle>TRAVEL</h6>
+        </div13>
+        <div14 class="div14">
+        <h6 text-align : center;
+    vertical-align : middle>BEAUTY</h6>
+        </div14>
+        <div15 class="div15">
+        <h6 text-align : center;
+    vertical-align : middle>REVIEWS</h6>
+        </div15>
+
+    </div9>
+    <div17 class="div17">
+        <div18 class="div18"><h1>Category:Business</h1>
+        </div18>
+        <center>
+        <div19 class="div19">
+                <h2 text-align : center; vertical-align : middle;>
+                <img src="https://mllj2j8xvfl0.i.optimole.com/431/240/auto/https/s20206.pcdn.co/wp-content/uploads/sites/67/2016/05/image-1-1_liuqly.jpg" width="200px" height="100px"/>
+                </h2>
+                <h4><a href="https://demo.themeisle.com/islemag/2016/04/20/orange-flower/">10 Reasons To Start Your Own Profitable Website</a>
+                </h4>
+                <h6><p>One of the things I have found myself needing over and over again as I design websites is ¡°dummy text¡± or ¡°filler text¡±, that looks like real content, that I can use to fill up a page so it gives the client the feel of a finished page, text and all. Filler text matters because [¡­]</p>
+                </h6>
+        </div19>
+        </center>
+        <center>
+        <div20 class="div20">
+            <img src="https://mllj2j8xvfl0.i.optimole.com/397/264/auto/https/s20206.pcdn.co/wp-content/uploads/sites/67/2016/05/o_19slkofl0rpq1o8qehicen12mi7_new_m97sjb.jpg" width="200px" height="100px"/>
+            <h4>
+                <a href="https://demo.themeisle.com/islemag/2016/04/20/2336/">How to Fight Lex Luthor Using Only iphone</a>
+                <h6><p>
+                        One of the things I have found myself needing over and over again as I design websites is ¡°dummy text¡± or ¡°filler text¡±, that looks like real content, that I can use to fill up a page so it gives the client the feel of a finished page, text and all. Filler text matters because [¡­]
+                    </p>
+                </h6>
+            </h4>
+        </div20>
+        </center>
+    </div17>
+    <div21 class="div21">
+        <div22 class="div22">
+            <h3>Latest Posts</h3>
+        </div22>
+        <div23 class="div23">
+          <span>
+              <img src="https://mllj2j8xvfl0.i.optimole.com/43/43/auto/https/s20206.pcdn.co/wp-content/uploads/sites/67/2016/04/12388071_1065320530185431_2076280306_n_g93ygx.jpg" width="100px" height="100px"/>
+               <a href="https://demo.themeisle.com/islemag/2016/05/11/roofs-pitches-trusses-framing float :right/">All About Roofs: Pitches, Trusses and Framing</a>
+        </span>
+        </div23>
+        <br>
+        <div24 class="div24">
+            <img src="https://mllj2j8xvfl0.i.optimole.com/43/43/auto/https/s20206.pcdn.co/wp-content/uploads/sites/67/2016/05/12168431_1036060226444795_851404817_o_z1lzd7.jpg" width="100px" height="100px"/>
+            <a href="https://demo.themeisle.com/islemag/2016/05/10/red-carhow-relax-40-ways-relax-5-minutes-less/">Red CarHow to Relax: 40 Ways to Relax in 5 Minutes or Less</a>
+        </div24>
+        <br>
+        <div25>
+            <img src="https://mllj2j8xvfl0.i.optimole.com/43/43/auto/https/s20206.pcdn.co/wp-content/uploads/sites/67/2016/04/rsz_125354711251_c9c3bd082e_o.jpg" width="100px" height="100px"/>
+            <a href="https://demo.themeisle.com/islemag/2016/04/20/amsterdam-at-night/">How Green Windows Can Keep You Out of Trouble</a>
+        </div25>
+
+
+    </div21>
+</div>
+
+</body>
+</html>
